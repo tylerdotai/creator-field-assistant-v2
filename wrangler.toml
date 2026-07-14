@@ -1,0 +1,17 @@
+name = "creator-field-assistant-api"
+main = "worker/index.js"
+compatibility_date = "2024-01-01"
+
+account_id = "52fd7f274b96876a4085c530a53b759c"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "creator-field-assistant"
+database_id = "REPLACE_WITH_D1_ID"  # Run: npx wrangler d1 create creator-field-assistant
+
+[[kv_namespaces]]
+binding = "KV"
+id = "REPLACE_WITH_KV_ID"  # Run: npx wrangler kv:namespace create "CFA_KV"
+
+[vars]
+CORS_ORIGIN = "https://creator-field-assistant.vercel.app"
