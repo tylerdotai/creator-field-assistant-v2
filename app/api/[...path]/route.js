@@ -3,7 +3,7 @@
  * Keeps the CF Worker URL server-side (not exposed to client).
  */
 
-const WORKER_URL = "https://creator-field-assistant-api.tylerdotai.workers.dev";
+const WORKER_URL = "https://creator-field-assistant-api.tyler-delano.workers.dev";
 
 function getToken(request) {
   // Try cookie first, then Authorization header
